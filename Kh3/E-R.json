@@ -1,0 +1,22 @@
+{
+    "sum_of_elems": 2,
+    "time_of_modeling": 0.005,
+    "step": 50e-8,
+    "elems": {
+        "0":{
+            "type": "E",
+            "Volt": 15,
+            "Impedance": 0.00001,
+            "node_start": 1,
+            "node_end": 2,
+            "number_of_branch": 1
+        },
+        "1":{
+            "type": "R",
+            "Impedance": 5,
+            "node_start":2,
+            "node_end": 1,
+            "number_of_branch": 1
+        }
+    }
+}
